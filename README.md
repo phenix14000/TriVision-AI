@@ -27,8 +27,9 @@
 
 ### Quick Start
 1.  **Download** the repository (Code -> Download ZIP) or `git clone https://github.com/phenix14000/TriVision-AI.git`.
-2.  Double-click on **`install_app.bat`**.
-    *   It will automatically create the virtual environment (`venv`) and install all dependencies.
+2.  **Choose your installation**:
+    *   **NVIDIA GPU** users: Double-click **`install_app_gpu.bat`** (Recommended for speed).
+    *   **Standard users** (or no dedicated GPU): Double-click **`install_app_cpu.bat`**.
 3.  The application will launch automatically after installation.
     *   For future use, just double-click **`start.bat`**.
 
@@ -74,8 +75,11 @@ Create your own AI model to recognize your specific categories.
 *   **Respect de la vie privée** : Tout tourne en local sur votre PC.
 
 ### Installation
-1.  Lancez **`install_app.bat`** pour tout installer automatiquement.
-2.  Lancez **`start.bat`** pour ouvrir l'application.
+1.  Choisissez votre script d'installation :
+    *   **`install_app_gpu.bat`** : Si vous avez une carte graphique **NVIDIA** (Beaucoup plus rapide).
+    *   **`install_app_cpu.bat`** : Version standard (plus lente).
+2.  L'installation se lance automatiquement.
+3.  Utilisez **`start.bat`** pour les prochaines fois.
 
 ---
 
