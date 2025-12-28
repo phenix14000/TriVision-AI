@@ -2,6 +2,8 @@
 
 **TriVision AI** is a powerful local application designed to sort your image collections automatically using AI models. It features a modern web interface (Gradio) and supports custom model training.
 
+🔗 **GitHub Repository**: [https://github.com/phenix14000/TriVision-AI](https://github.com/phenix14000/TriVision-AI)
+
 ## 🚀 Key Features
 
 *   **Automatic Sorting**: Classify thousands of images in seconds (Manga vs Real, or any custom categories).
@@ -22,12 +24,13 @@
 ### Prerequisites
 *   **Windows 10/11**
 *   **Python 3.10+** installed.
-*   **Git** installed.
 
 ### Quick Start
-1.  Double-click on **`install_app.bat`**.
-    *   It will create the virtual environment and install all dependencies (Torch, Transformers, Gradio...).
-2.  Once finished, double-click on **`start.bat`** to launch the application.
+1.  **Download** the repository (Code -> Download ZIP) or `git clone https://github.com/phenix14000/TriVision-AI.git`.
+2.  Double-click on **`install_app.bat`**.
+    *   It will automatically create the virtual environment (`venv`) and install all dependencies.
+3.  The application will launch automatically after installation.
+    *   For future use, just double-click **`start.bat`**.
 
 *Alternative Manual Install:*
 ```bash
