@@ -7,23 +7,6 @@ echo     INSTALLATION DE TRIVISION AI
 echo ==================================================
 echo.
 
-:: 1. GIT CLONE (Placeholder - Replace URL)
-echo 1/3 Clonage du depot...
-:: Remplacez l'URL ci-dessous par votre depot Git reel
-git clone https://github.com/EXEMPLE/TriVision.git
-if %ERRORLEVEL% NEQ 0 (
-    echo Erreur lors du clonage. Verifiez l'URL ou si Git est installe.
-    pause
-    exit /b
-)
-
-:: Enter the directory (Assumes directory name is the repo name, adjust if needed)
-if exist "TriVision" (
-    cd TriVision
-) else (
-    echo Le dossier TriVision n'a pas ete trouve. Peut-etre etes-vous deja dedans ?
-)
-
 :: 2. CREATE VENV
 echo.
 echo 2/3 Creation de l'environnement virtuel...
