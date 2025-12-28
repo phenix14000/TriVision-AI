@@ -1,0 +1,9 @@
+torch
+torchvision
+transformers
+pillow
+timm
+gradio
+accelerate
+datasets
+tqdm
